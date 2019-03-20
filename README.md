@@ -1,2 +1,3 @@
-# rockpaperscissors
-Simple C++ Rock Paper Scissors game 
+# Rock Paper Scissors
+
+This is a simple rock paper scissors game, I made to learn C++. 
