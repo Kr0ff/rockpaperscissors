@@ -13,19 +13,21 @@ Compile: g++ rps.cpp -o rps
 void rps() {
   
   srand(time(NULL));
-	int computer = rand() % 3 + 1;
-	int user;
-  //int s;
-  
-  std::cout << "====================\n";
-	std::cout << "Rock Paper Scissors!\n";
-	std::cout << "====================\n";
+  int computer = rand() % 3 + 1;
+  int user;
+	
+	
+  std::cout << "								"
+  std::cout << "	.__       .  .__              __.                       "
+  std::cout << "	 [__) _  _.;_/[__) _.._  _ ._.(__  _.* __ __ _ ._. __   "
+  std::cout << "	 |  \(_)(_.| \|   (_][_)(/,[  .__)(_.|_) _) (_)[  _)    "
+  std::cout << "	                     |                                  "
 
-	std::cout << "1) ✊\n";
-	std::cout << "2) ✋\n";
-	std::cout << "3) ✌️\n";
+  std::cout << "1) Rock\n";
+  std::cout << "2) Paper\n";
+  std::cout << "3) Scissors\n";
 
-	std::cout << "Choice: ";
+  std::cout << "Choice: ";
   std::cin >> user;
   std::cout << "\n";
   
