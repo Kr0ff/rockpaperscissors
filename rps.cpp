@@ -1,6 +1,6 @@
 /*
-
-Compile: g++ rps.cpp 
+	Linux:
+Compile: g++ rps.cpp -o rps
 
 */
 
